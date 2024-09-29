@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/css/styel.css">
+</head>
+
+<body>
+
+
+    <section class="mb-3">
+        <div class="container-fluid bg-dark">
+            <div class="sign-up d-flex justify-content-center align-items-center gap-2">
+                <p class="sign-para text-center">Sign up and get 20% off on your first order.
+                    <a href="#" class="sign-anchor">Sign up</a>
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-3">
+        <div class="container navbar-fixed">
+
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/index.html"><img src="/src/img/SHOP.CO.png" class="img-fluid"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Shop
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/men.html">Men</a></li>
+                                    <li><a class="dropdown-item" href="#">Women</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Child</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">On Sale</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">New Arrivals</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Brands</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex search-form" role="search">
+                            <i class="ri-search-line ri-lg search-icon"></i>
+                            <input class="form-control ps-5 me-2 top-search bg-body-secondary " type="search"
+                                placeholder="Search for products..." aria-label="Search">
+                            <div class="d-flex align-items-center gap-2 ms-4">
+                                <i class="ri-shopping-cart-line ri-lg"></i>
+                                <i class="ri-account-circle-line ri-lg"></i>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <hr>
+        </div>
+    </section>
+
+
+    <div class="container mb-3">
+        <div>
+            <p class="text-secondary" style="font-size: 14px;">Home > Shop > Men > T-Shirts</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="/src/img/main.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-12">
+                                <img src="/src/img/pdshirt-1.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-12">
+                                <img src="/src/img/pdshirt-2.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <img src="/src/img/pdshirt3.png" class="img-fluid">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="details-section">
+                    <div class="tshirt-div">
+                        <h3 class="fw-bold mb-3">ONE LIFE GRAPHIC T-SHIRT</h3>
+                        <div class="stars"><span class="fa fa-star checked small mb-3"></span>
+                            <span class="fa fa-star checked small"></span>
+                            <span class="fa fa-star checked small"></span>
+                            <span class="fa fa-star checked small"></span>
+                            <span class="fa fa-star small"></span>
+                            <span style="font-size: 10px;">4/5</span>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <span>
+                                <h5 class="card-title">$50.99</h5>
+                            </span>
+                            <span>
+                                <h5 class="card-title" style="color: grey; text-decoration: line-through ;">$100
+                                </h5>
+                            </span>
+                            <span class="off-section">
+                                <p class="off-para">-20%</p>
+                            </span>
+                        </div>
+
+                        <div>
+                            <p>
+                            <p class="text-secondary" style="font-size: 14px;">This graphic t-shirt which is perfect for
+                                any occasion. Crafted from a soft <br>and breathable fabric, it offers superior comfort
+                                and style.</p>
+                            </p>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="choose-color">
+                        <p class="text-secondary" style="font-size: 14px;">Select Colors</p>
+                        <div class="d-flex gap-3">
+                            <div class="color-div bg-dark" id="color-div1">
+
+                            </div>
+                            <div class="color-div bg-danger" id="color-div2">
+
+                            </div>
+                            <div class="color-div bg-primary" id="color-div3">
+
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="size-div">
+                        <p class="text-secondary" style="font-size: 14px;">Chooe Size</p>
+                        <div class="size-buttons mb-3">
+                            <button class="size-button btn btn-outline-dark rounded-pill">Small</button>
+                            <button class="size-button btn btn-outline-dark rounded-pill">Medium</button>
+                            <button class="size-button selected btn btn-outline-dark rounded-pill">Large</button>
+                            <button class="size-button btn btn-outline-dark rounded-pill">X-Large</button>
+                        </div>
+                        <hr>
+                        <div class="d-flex gap-3">
+                            <div class="quantity-buttons bg-body-secondary rounded-pill">
+                                <button class="quantity-button btn btn-outline-dark rounded-pill border-0 ">-</button>
+                                <span>1</span>
+                                <button class="quantity-button btn btn-outline-dark rounded-pill border-0">+</button>
+                            </div>
+
+                            <div> <button class="add-to-cart btn btn-outline-dark rounded-pill ">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="all-reviews mb-3">
+        <div class="container">
+            <div class="mb-3">
+                <div class="d-flex justify-content-between border-bottom">
+                    <div><a href="">
+                            <p class="text-secondary">
+                                Product Details
+                            </p>
+                        </a></div>
+                    <div>
+                        <a>
+                            <p class="rating-para">Rating & Reviews</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <p class="text-secondary">FAQs</p>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="d-flex align-items-baseline justify-content-between">
+                <div class="">
+                    <div class="d-flex gap-2 align-items-baseline">
+                        <h4>All Reviews</h4>
+                        <p class="text-secondary">(50)</p>
+                    </div>
+                </div>
+                <div>
+                    <select class="rounded-pill bg-body-secondary border-0 p-1" style="width: 15vh; height: 36px;">
+                        <option value="">Latest</option>
+                        <option value="">More</option>
+                    </select>
+                    <button class="btn btn-dark rounded-pill " style="font-size: 14px; padding: 7px 20px;">Write a Riview</button>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="  p-3 rounded">
+                        <div class=" card p-4 " style="border-radius: 20px;">
+                            <div class="stars">
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                            </div>
+
+                            <div class="d-flex gap-2 align-items-baseline">
+                                <span>
+                                    <h6>Samantha D.</h6>
+                                </span>
+                                <span><i class="ri-checkbox-circle-fill" style="color:rgb(0, 167, 0);"></i></span>
+                            </div>
+                            <div>
+                                <p class="review-para">"I absolutely love this t-shirt! The design is unique and the
+                                    fabric feels so comfortable. As a fellow designer, I appreciate the attention to
+                                    detail. It's become my favorite go-to shirt."
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="p-3 rounded">
+                        <div class="card p-4" style="border-radius: 20px;">
+                            <div class="stars">
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                            </div>
+
+                            <div class="d-flex gap-2 align-items-baseline">
+                                <span>
+                                    <h6>Sara.J</h6>
+                                </span>
+                                <span><i class="ri-checkbox-circle-fill" style="color:rgb(0, 167, 0);"></i></span>
+                            </div>
+                            <div>
+                                <p class="review-para">"I'm blown away by the quality and style of the clothes I
+                                    received
+                                    from
+                                    Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded
+                                    my
+                                    expectations.”</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-6 col-sm-12">
+                    <div class="p-3">
+                        <div class="card p-4" style="border-radius: 20px;">
+                            <div class="stars">
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                            </div>
+
+                            <div class="d-flex gap-2 align-items-baseline">
+                                <span>
+                                    <h6>Ethan R.</h6>
+                                </span>
+                                <span><i class="ri-checkbox-circle-fill" style="color:rgb(0, 167, 0);"></i></span>
+                            </div>
+                            <div>
+                                <p class="review-para">"This t-shirt is a must-have for anyone who appreciates good
+                                    design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect.
+                                    I can see the designer's touch in every aspect of this shirt."</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="p-3 rounded">
+                        <div class="card p-4 "style="border-radius: 20px;">
+                            <div class="stars">
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                                <i class="ri-star-s-fill star1"></i>
+                            </div>
+
+                            <div class="d-flex gap-2 align-items-baseline">
+                                <span>
+                                    <h6>Olivia P.</h6>
+                                </span>
+                                <span><i class="ri-checkbox-circle-fill" style="color:rgb(0, 167, 0);"></i></span>
+                            </div>
+                            <div>
+                                <p class="review-para">"As a UI/UX enthusiast, I value simplicity and functionality.
+                                    This t-shirt not only represents those principles but also feels great to wear. It's
+                                    evident that the designer poured their creativity into making this t-shirt stand
+                                    out."</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-center"><button class="btn btn-outline-dark rounded-pill" style="font-size: 15px; padding: 7px 24px;" >Load More Reviews</button></div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <div class="container">
+            <div class="text-center mb-4"><h2  class="fw-bold">YOU MIGHT ALSO LIKE</h2></div>
+            <div class="row">
+                <div class="col-md-3 col-sm-12 ">
+                    <div class="p-3">
+                        <div class="img-div bg-body-secondary mb-3" style="border-radius: 20px;">
+                            <img src="/src/img/shirt4.png" class="img-fluid ">
+                        </div>
+                        <div>
+                            <p>Polo With Contrast Trims</p>
+                            <div class="stars"><span class="fa fa-star checked small mb-3"></span>
+                                <span class="fa fa-star checked small"></span>
+                                <span class="fa fa-star checked small"></span>
+                                <span class="fa fa-star checked small"></span>
+                                <span class="fa fa-star small"></span>
+                                <span style="font-size: 10px;">4/5</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <span>
+                                    <h5 class="card-title">$99.99</h5>
+                                </span>
+                                <span>
+                                    <h5 class="card-title" style="color: grey; text-decoration: line-through ;">$200
+                                    </h5>
+                                </span>
+                                <span class="off-section">
+                                    <p class="off-para">-50%</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="p-3">
+                        <div class="img-div bg-body-secondary mb-3" style="border-radius: 20px;">
+                            <img src="/src/img/shirt5.png" class="img-fluid ">
+                        </div>
+                        <div>
+                            <p>Polo With Contrast Trims</p>
+                            <div class="stars"><span class="fa fa-star checked small mb-3"></span>
+                                <span class="fa fa-star checked small"></span>
+                                <span class="fa fa-star checked small"></span>
+                                <span class="fa fa-star checked small"></span>
+                                <span class="fa fa-star small"></span>
+                                <span style="font-size: 10px;">4/5</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <span>
+                                    <h5 class="card-title">$70.99</h5>
+                                </span>
+                                <span>
+                                    <h5 class="card-title" style="color: grey; text-decoration: line-through ;">$100
+                                    </h5>
+                                </span>
+                                <span class="off-section">
+                                    <p class="off-para">30%</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="p-3">
+                        <div class="img-div bg-body-secondary mb-3" style="border-radius: 20px;">
+                            <img src="/src/img/shirt6.png" class="img-fluid ">
+                        </div>
+                        <div>
+                            <p>Polo With Contrast Trims</p>
+                            <div class="stars"><span class="fa fa-star checked small mb-3"></span>
+                                <span class="fa fa-star checked small"></span>
+                                <span class="fa fa-star checked small"></span>
+                                <span class="fa fa-star checked small"></span>
+                                <span class="fa fa-star small"></span>
+                                <span style="font-size: 10px;">4/5</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <span>
+                                    <h5 class="card-title">$80.99</h5>
+                                </span>
+                                <span>
+                                    <h5 class="card-title" style="color: grey; text-decoration: line-through ;">$100
+                                    </h5>
+                                </span>
+                                <span class="off-section">
+                                    <p class="off-para">-20%</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="p-3">
+                        <div class="img-div bg-body-secondary mb-3" style="border-radius: 20px;">
+                            <img src="/src/img/shirt7.png" class="img-fluid ">
+                        </div>
+                        <div>
+                            <p>Polo With Contrast Trims</p>
+                            <div class="stars"><span class="fa fa-star checked small mb-3"></span>
+                                <span class="fa fa-star checked small"></span>
+                                <span class="fa fa-star checked small"></span>
+                                <span class="fa fa-star checked small"></span>
+                                <span class="fa fa-star small"></span>
+                                <span style="font-size: 10px;">4/5</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <span>
+                                    <h5 class="card-title">$50.99</h5>
+                                </span>
+                                <span>
+                                    <h5 class="card-title" style="color: grey; text-decoration: line-through ;">$100
+                                    </h5>
+                                </span>
+                                <span class="off-section">
+                                    <p class="off-para">-50%</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="for-position  container-fluid">
+        <div class="for-abso">
+            <div class="container bg-dark email-footer email-footer2 d-flex justify-content-between p-4">
+                <div>
+                    <h2 class="fw-bold text-white offer-heading">STAY UPTO DATE ABOUT <br>OUR LATEST OFFERS</h2>
+                </div>
+                <div class="for-posi">
+                    <i class="ri-mail-send-line text-secondary mail-icon"></i>
+                    <input type="email" class="mb-2 rounded-pill email-input" placeholder="Enter your email adress">
+                    <br>
+                    <button class="btn btn-light rounded-pill btn-sub">Subscribe to Newsletter</button>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="foooter ">
+        <div class="container-fluid bg-body-secondary">
+
+            <div class="container ">
+                <div style="width: 100% ; height: 100px;"></div>
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <h2 class="fw-bold">SHOP.CO</h2>
+                        <p class="footer-para text-secondary">We have clothes that suits your style and <br> which
+                            you’re proud to wear. <br> From women to men.</p>
+                        <div class="social-links mb-4">
+                            <a href="#"><i class="ri-twitter-line me-2 text-dark bg-white rounded-pill p-1 "></i></a>
+                            <a href="#"><i
+                                    class="ri-facebook-circle-fill me-2 text-dark bg-white rounded-pill p-1"></i></a>
+                            <a href="#"><i class="ri-instagram-line me-2 text-dark bg-white rounded-pill p-1"></i></a>
+                            <a href="#"><i class="ri-github-line me-2 text-dark bg-white rounded-pill p-1"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                        <div class="">
+                            <h5 class="mb-3">COMPANY</h5>
+                            <ul class="footer-section text-secondary">
+                                <li>About</li>
+                                <li>Features</li>
+                                <li>Works</li>
+                                <li>Career</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                        <div class="">
+                            <h5 class="mb-3">HELP</h5>
+                            <ul class="footer-section text-secondary">
+                                <li>Customer Support</li>
+                                <li>Delivery Details</li>
+                                <li>Terms & Conditions</li>
+                                <li>Privacy Policy</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                        <div class="">
+                            <h5 class="mb-3 ">FAQ</h5>
+                            <ul class="footer-section text-secondary">
+                                <li>Account</li>
+                                <li>Manage Deliveries</li>
+                                <li>Orders</li>
+                                <li>Payments</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6">
+                        <div class="">
+                            <h5 class="mb-3">RESOURCES</h5>
+                            <ul class="footer-section text-secondary">
+                                <li>Free eBooks</li>
+                                <li>Development Tutorial</li>
+                                <li>How to Blog</li>
+                                <li>Youtube Playlist</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <hr>
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="text-secondary" style="margin: 0px !important;">Shop.co @ 2024, Developed by
+                                codewithawais-byte</p>
+                        </div>
+                        <div class="col-md-6 me-auto">
+                            <div class="payment-icon d-flex justify-content-end gap-3">
+                               <div> <img src="/src/img/appleicon.svg" style="width: 30px; " ></div>
+                                <img src="/src/img/googleicon.svg"  style="width: 30px;">
+                                <img src="/src/img/mastericon.svg"  style="width: 30px;" >
+                                <img src="/src/img/visaicon.svg"  style="width: 30px;" >
+                                <img src="/src/img/paypalicon.svg" style="width: 30px;">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="./src/java/bootstrap.bundle.min.js"></script>
+
+
+    <script>
+        const sizeButtons = document.querySelectorAll('.size-button');
+        const quantityButtons = document.querySelectorAll('.quantity-button');
+        const quantitySpan = document.querySelector('.quantity-buttons span');
+
+        sizeButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                sizeButtons.forEach(b => b.classList.remove('selected'));
+                button.classList.add('selected');
+            });
+        });
+
+        quantityButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                if (button.textContent === '+') {
+                    quantitySpan.textContent = parseInt(quantitySpan.textContent) + 1;
+                } else {
+                    if (parseInt(quantitySpan.textContent) > 1) {
+                        quantitySpan.textContent = parseInt(quantitySpan.textContent) - 1;
+                    }
+                }
+            });
+        });
+    </script>
+    </script>
+</body>
+
+</html>

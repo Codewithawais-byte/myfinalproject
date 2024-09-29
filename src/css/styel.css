@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+
+
+.sign-up {
+    color: white;
+    font-size: 14px;
+    height: 32px;
+}
+.sign-anchor {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: white;
+}
+.sign-para {
+    margin-top: 15px;
+}
+.top-search {
+    border-radius: 20px;
+    border: none;
+}
+.search-form {
+    width: 60%;
+    position: relative;
+}
+.search-icon {
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    top: 10px;
+}
+h1 {
+    font-size: 70px;
+}
+
+.hero-para {
+    font-size: 14px;
+}
+
+/* .brands-name {
+    color: white;
+} */
+
+.hero-pic {
+    margin-top: 75px;
+}
+
+.checked {
+    color: rgb(255, 204, 37);
+}
+
+.stars {
+    margin-top: -17px;
+}
+
+.view-btn {
+    border-radius: 20px;
+    padding: 5px 32px;
+    font-size: 14px;
+}
+
+.off-section {
+    background-color: rgb(255, 196, 196);
+    border-radius: 20px;
+
+}
+
+.off-para {
+    color: red;
+    font-size: 10px;
+    margin: 3px 7px;
+}
+
+.browse-sec {
+    border-radius: 20px;
+}
+
+.formal-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.browse-anchor {
+    text-decoration: none;
+}
+
+.star1 {
+    color: orange;
+}
+
+.review-para {
+    font-size: 12px;
+    color: rgb(108, 117, 125);
+
+}
+
+.email-input {
+    padding: 8px 40px;
+    font-size: 10px;
+    z-index: 0;
+}
+
+.btn-sub {
+    padding: 8px 45px;
+    font-size: 10px;
+}
+
+.mail-icon {
+    position: absolute;
+    z-index: 1;
+    left: 16px;
+    top: 5px;
+
+}
+
+.for-posi {
+    position: relative;
+}
+
+.email-footer {
+    border-radius: 20px;
+    /* position: absolute;
+    left: 70px;
+     bottom: -60px; */
+
+}
+
+
+/* .for-abso{
+    position: relative;
+} */
+
+a{
+    text-decoration: none;
+}
+.footer-para{
+    font-size: 12px;
+}
+.for-position{
+    position: absolute;
+    
+   
+}
+.for-abso{
+   position: relative;
+   top: -11px;
+}
+.foooter{
+    margin-top: 100px;
+}
+.footer-section li{
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 12px;
+    
+}
+ul{
+    padding: 0;
+}
+.copyright p{
+    font-size: 12px;
+}
+@media screen and (max-width: 576px){
+    .main-heading{
+        font-size: 40px;
+    }
+    .btn-shop{
+        width: 100% !important;
+    }
+    .hero-pic{
+        margin-top: 0px;
+    }
+    .about-shop{
+        width: 30%;
+        text-align: center;
+    }
+    .brands-heading{
+        font-size: 20px;
+        padding: 0px !important;
+    }
+    .view-btn{
+        width: 100%;
+    }
+    .browse-category{
+        margin-bottom: 20px;
+    }
+    .cate-sec , .cate-sec2{
+        padding: 0px !important;
+    }
+    .sports-card{
+        margin-bottom: 20px;
+    }
+    .browse-img2{
+        width: 30vw;
+    }
+    .browse-img{
+        width: 35vw !important;
+    }
+    .happ-cus{
+        font-size: 15px;
+
+    }
+    .email-footer2{
+        display: block !important;
+    }
+    .offer-heading{
+        font-size: 16px;
+    }
+    .email-input, .btn-sub{
+        width: 100%;
+    }
+    .for-abso{
+        top: -34px;
+    }
+}
+@media screen and (min-width:768px) {
+    .fitj-pant{
+        height: 339px;
+    }
+
+}
+@media  screen and (min-width:992px) {
+    .fitj-pant{
+        height: 219px;
+    }
+}
+@media screen and (min-width:122px) {
+    .fitj-pant{
+        height: 265px;
+    }
+}
+
+/* css for product details page */
+
+.color-div {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+
+}
+.size-button .selected {
+    background-color: #000;
+    color: #fff;
+}
+.rating-para{
+    color: black;
+}
+.style-anchor{
+    font-size: 15px;
+}
+

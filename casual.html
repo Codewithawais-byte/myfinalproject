@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casual</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/css/styel.css">
+</head>
+
+<body>
+    <section class="mb-3">
+        <div class="container-fluid bg-dark">
+            <div class="sign-up d-flex justify-content-center align-items-center gap-2">
+                <p class="sign-para text-center">Sign up and get 20% off on your first order.
+                    <a href="#" class="sign-anchor">Sign up</a>
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-3">
+        <div class="container navbar-fixed">
+
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/index.html"><img src="/src/img/SHOP.CO.png" class="img-fluid"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Shop
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/men.html">Men</a></li>
+                                    <li><a class="dropdown-item" href="#">Women</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Child</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">On Sale</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">New Arrivals</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Brands</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex search-form" role="search">
+                            <i class="ri-search-line ri-lg search-icon"></i>
+                            <input class="form-control ps-5 me-2 top-search bg-body-secondary " type="search"
+                                placeholder="Search for products..." aria-label="Search">
+                            <div class="d-flex align-items-center gap-2 ms-4">
+                                <i class="ri-shopping-cart-line ri-lg"></i>
+                                <i class="ri-account-circle-line ri-lg"></i>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </section>
+
+    <section class="mb-4">
+        <div class="container">
+            <div>
+                <p class="text-secondary">Home > Casual</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-2 border p-3 " style="border-radius: 15px;">
+                    <div class="d-flex justify-content-between border-bottom mb-3">
+                        <h6>Filters</h6>
+                        <i class="ri-sound-module-fill"></i>
+                    </div>
+                    <div class="text-secondary border-bottom mb-3">
+                        <div class="d-flex  justify-content-between">
+                            <p class="mb-1" style="font-size: 14px;">T-Shirts</p>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <div class="d-flex  justify-content-between">
+                            <p class="mb-1" style="font-size: 14px;">Shorts</p>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <div class="d-flex  justify-content-between">
+                            <p class="mb-1" style="font-size: 14px;">Shirts</p>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <div class="d-flex  justify-content-between">
+                            <p class="mb-1" style="font-size: 14px;">Hoodie</p>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <div class="d-flex  justify-content-between">
+                            <p class="mb-1" style="font-size: 14px;">Jeans</p>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 border-bottom">
+
+                        <div>
+                            <h6>Price</h6>
+                        </div>
+                        <div>
+                            <input type="range" min="0" max="200" value="200"
+                                oninput="rangeValue.innerText = this.value">
+                            <p id="rangeValue">$200</p>
+                        </div>
+                    </div>
+                    <div class="mb-3 border-bottom">
+                        <div>
+                            <h6>Colors</h6>
+                        </div>
+                        <div class="container p-3">
+                            <div class="row justify-content-between mb-2">
+                                <div class="col-md-3"
+                                    style="background-color: red; border-radius: 100%; height: 30px; width: 30px;">
+
+                                </div>
+                                <div class="col-md-3"
+                                    style="background-color: orange; border-radius: 100%; height: 30px; width: 30px;">
+
+                                </div>
+                                <div class="col-md-3"
+                                    style="background-color: green; border-radius: 100%; height: 30px; width: 30px;">
+
+                                </div>
+                                <div class="col-md-3"
+                                    style="background-color: blue; border-radius: 100%; height: 30px; width: 30px;">
+
+                                </div>
+                            </div>
+                            <div class="row justify-content-between ">
+                                <div class="col-md-3 border"
+                                    style="background-color: white; border-radius: 100%; height: 30px; width: 30px;">
+
+                                </div>
+                                <div class="col-md-3"
+                                    style="background-color: black; border-radius: 100%; height: 30px; width: 30px;">
+
+                                </div>
+                                <div class="col-md-3"
+                                    style="background-color: grey; border-radius: 100%; height: 30px; width: 30px;">
+
+                                </div>
+                                <div class="col-md-3"
+                                    style="background-color: deepskyblue; border-radius: 100%; height: 30px; width: 30px;">
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="mb-3 border-bottom ">
+                        <div class="mb-3"><h6>Size</h6></div>
+                        <div class="mb-2 size-buttons">
+                            <button class="size-button btn btn-outline-dark rounded-pill" style="font-size: 14px; padding: 6px 15px;">XX-Small</button>
+                            <button class="size-button btn btn-outline-dark rounded-pill" style="font-size: 14px; padding: 6px 15px;">X-Small</button>
+                        </div>
+                        <div class="size-buttons mb-2">
+                            <button class="size-button btn btn-outline-dark rounded-pill" style="font-size: 14px; padding: 6px 15px;">Small</button>
+                            <button class="size-button btn btn-outline-dark rounded-pill" style="font-size: 14px; padding: 6px 15px;">Medium</button>
+                        </div>
+                        <div class="size-buttons mb-2">
+                            <button class="size-button btn btn-outline-dark rounded-pill" style="font-size: 14px; padding: 6px 15px;">Large</button>
+                            <button class="size-button btn btn-outline-dark rounded-pill" style="font-size: 14px; padding: 6px 15px;">X-large</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="mb-2">
+                            <h6>Dress Style</h6>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="style-anchor">
+                                <p class="text-secondary mb-1">Casual</p>
+                            </a>
+                            <a href="#" class="text-secondary"><i class="ri-arrow-right-s-line"></i></a>
+
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="style-anchor">
+                                <p class="text-secondary mb-1">Formal</p>
+                            </a>
+                            <a href="#" class="text-secondary"><i class="ri-arrow-right-s-line"></i></a>
+
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="style-anchor">
+                                <p class="text-secondary mb-1">Party</p>
+                            </a>
+                            <a href="#" class="text-secondary"><i class="ri-arrow-right-s-line"></i></a>
+
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="style-anchor">
+                                <p class="text-secondary mb-1">Gym</p>
+                            </a>
+                            <a href="#" class="text-secondary"><i class="ri-arrow-right-s-line"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="text-center ">
+                        <button class="btn btn-dark rounded-pill w-100">Apply Filter</button>
+                    </div>
+
+
+                </div>
+                <div class="col-md-10">
+                    <div class="container">
+                        <div class="d-flex justify-content-between">
+                            <h5>Casual</h5>
+                            <p class="text-secondary">Showing 1-10 Products </p>
+                        </div>
+                    
+                    </div>
+                   <!-- <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-12">
+                                <div class="p-3">
+                                    <div class=" bg-body-secondary mb-3" style="border-radius: 20px;">
+                                        <img src="/src/img/shirt6.png" class="img-fluid w-100">
+                                    </div>
+                                    <div>
+                                        <p>Gradient Graphic T-Shirt</p>
+                                        <div class="stars"><span class="fa fa-star checked small mb-3"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star small"></span>
+                                            <span style="font-size: 10px;">4/5</span>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span>
+                                                <h5 class="card-title">$145.99</h5>
+                                            </span>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="p-3">
+                                    <div class="img-div bg-body-secondary mb-3" style="border-radius: 20px;">
+                                        <img src="/src/img/shirt6.png" class="img-fluid w-100">
+                                    </div>
+                                    <div>
+                                        <p>Polo With Tipping Details</p>
+                                        <div class="stars"><span class="fa fa-star checked small mb-3"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star small"></span>
+                                            <span style="font-size: 10px;">4/5</span>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span>
+                                                <h5 class="card-title">$180.99</h5>
+                                            </span>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="p-3">
+                                    <div class="img-div bg-body-secondary mb-3" style="border-radius: 20px;">
+                                        <img src="/src/img/shirt6.png" class="img-fluid w-100">
+                                    </div>
+                                    <div>
+                                        <p>Black Stripped T-Shirt</p>
+                                        <div class="stars"><span class="fa fa-star checked small mb-3"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star small"></span>
+                                            <span style="font-size: 10px;">4/5</span>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span>
+                                                <h5 class="card-title">$120.99</h5>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="p-3">
+                                    <div class="img-div bg-body-secondary mb-3" style="border-radius: 20px;">
+                                        <img src="/src/img/shirt6.png" class="img-fluid w-100">
+                                    </div>
+                                    <div>
+                                        <p>Skinny Fit Jeans</p>
+                                        <div class="stars"><span class="fa fa-star checked small mb-3"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star small"></span>
+                                            <span style="font-size: 10px;">4/5</span>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span>
+                                                <h5 class="card-title">$240</h5>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="p-3">
+                                    <div class="img-div bg-body-secondary mb-3" style="border-radius: 20px;">
+                                        <img src="/src/img/shirt6.png" class="img-fluid w-100">
+                                    </div>
+                                    <div>
+                                        <p>Checkered Shirt</p>
+                                        <div class="stars"><span class="fa fa-star checked small mb-3"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star small"></span>
+                                            <span style="font-size: 10px;">4/5</span>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span>
+                                                <h5 class="card-title">$80.99</h5>
+                                            </span>
+                                            <span>
+                                                <h5 class="card-title" style="color: grey; text-decoration: line-through ;">$100
+                                                </h5>
+                                            </span>
+                                            <span class="off-section">
+                                                <p class="off-para">-20%</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="p-3">
+                                    <div class="img-div bg-body-secondary mb-3" style="border-radius: 20px;">
+                                        <img src="/src/img/shirt6.png" class="img-fluid w-100">
+                                    </div>
+                                    <div>
+                                        <p>Sleeve Stripped T-Shirt</p>
+                                        <div class="stars"><span class="fa fa-star checked small mb-3"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star small"></span>
+                                            <span style="font-size: 10px;">4/5</span>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span>
+                                                <h5 class="card-title">$300</h5>
+                                            </span>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="p-3">
+                                    <div class="img-div bg-body-secondary mb-3" style="border-radius: 20px;">
+                                        <img src="/src/img/shirt6.png" class="img-fluid w-100">
+                                    </div>
+                                    <div>
+                                        <p>Courage Graphic T-Shirt</p>
+                                        <div class="stars"><span class="fa fa-star checked small mb-3"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star small"></span>
+                                            <span style="font-size: 10px;">4/5</span>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span>
+                                                <h5 class="card-title">$80.99</h5>
+                                            </span>
+                                            <span>
+                                                <h5 class="card-title" style="color: grey; text-decoration: line-through ;">$100
+                                                </h5>
+                                            </span>
+                                            <span class="off-section">
+                                                <p class="off-para">-20%</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="p-3">
+                                    <div class="img-div bg-body-secondary mb-3" style="border-radius: 20px;">
+                                        <img src="/src/img/shirt6.png" class="img-fluid w-100">
+                                    </div>
+                                    <div>
+                                        <p>Loose Fit Bermuda Shorts</p>
+                                        <div class="stars"><span class="fa fa-star checked small mb-3"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star small"></span>
+                                            <span style="font-size: 10px;">4/5</span>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span>
+                                                <h5 class="card-title">$150</h5>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="p-3">
+                                    <div class="img-div bg-body-secondary mb-3" style="border-radius: 20px;">
+                                        <img src="/src/img/shirt6.png" class="img-fluid w-100">
+                                    </div>
+                                    <div>
+                                        <p>Polo With Contrast Trims</p>
+                                        <div class="stars"><span class="fa fa-star checked small mb-3"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star checked small"></span>
+                                            <span class="fa fa-star small"></span>
+                                            <span style="font-size: 10px;">4/5</span>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span>
+                                                <h5 class="card-title">$60.99</h5>
+                                            </span>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div> 
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    </section>
+    <!-- <section class="for-position  container-fluid">
+    <div class="for-abso">
+        <div class="container bg-dark email-footer email-footer2 d-flex justify-content-between p-4">
+            <div>
+                <h2 class="fw-bold text-white offer-heading">STAY UPTO DATE ABOUT <br>OUR LATEST OFFERS</h2>
+            </div>
+            <div class="for-posi">
+                <i class="ri-mail-send-line text-secondary mail-icon"></i>
+                <input type="email" class="mb-2 rounded-pill email-input" placeholder="Enter your email adress">
+                <br>
+                <button class="btn btn-light rounded-pill btn-sub">Subscribe to Newsletter</button>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section class="foooter">
+    <div class="container-fluid bg-body-secondary">
+
+        <div class="container ">
+            <div style="width: 100% ; height: 100px;"></div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="fw-bold">SHOP.CO</h2>
+                    <p class="footer-para text-secondary">We have clothes that suits your style and <br> which
+                        you’re proud to wear. <br> From women to men.</p>
+                    <div class="social-links mb-4">
+                        <a href="#"><i class="ri-twitter-line me-2 text-dark bg-white rounded-pill p-1 "></i></a>
+                        <a href="#"><i
+                                class="ri-facebook-circle-fill me-2 text-dark bg-white rounded-pill p-1"></i></a>
+                        <a href="#"><i class="ri-instagram-line me-2 text-dark bg-white rounded-pill p-1"></i></a>
+                        <a href="#"><i class="ri-github-line me-2 text-dark bg-white rounded-pill p-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h5 class="mb-3">COMPANY</h5>
+                        <ul class="footer-section text-secondary">
+                            <li>About</li>
+                            <li>Features</li>
+                            <li>Works</li>
+                            <li>Career</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h5 class="mb-3">HELP</h5>
+                        <ul class="footer-section text-secondary">
+                            <li>Customer Support</li>
+                            <li>Delivery Details</li>
+                            <li>Terms & Conditions</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h5 class="mb-3 ">FAQ</h5>
+                        <ul class="footer-section text-secondary">
+                            <li>Account</li>
+                            <li>Manage Deliveries</li>
+                            <li>Orders</li>
+                            <li>Payments</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h5 class="mb-3">RESOURCES</h5>
+                        <ul class="footer-section text-secondary">
+                            <li>Free eBooks</li>
+                            <li>Development Tutorial</li>
+                            <li>How to Blog</li>
+                            <li>Youtube Playlist</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="text-secondary" style="margin: 0px !important;">Shop.co @ 2024, Developed by
+                            codewithawais-byte</p>
+                    </div>
+                    <div class="col-md-6 me-auto">
+                        <div class="payment-icon d-flex justify-content-end gap-3">
+                           <div> <img src="/src/img/appleicon.svg" style="width: 30px; " ></div>
+                            <img src="/src/img/googleicon.svg"  style="width: 30px;">
+                            <img src="/src/img/mastericon.svg"  style="width: 30px;" >
+                            <img src="/src/img/visaicon.svg"  style="width: 30px;" >
+                            <img src="/src/img/paypalicon.svg" style="width: 30px;">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+</section> -->
+
+
+    <script src="./src/java/bootstrap.bundle.min.js"></script>
+    <script>
+        const sizeButtons = document.querySelectorAll('.size-button');
+
+        sizeButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                sizeButtons.forEach(b => b.classList.remove('selected'));
+                button.classList.add('selected');
+            });
+        });
+    </script>
+</body>
+
+</html>
